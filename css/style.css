@@ -1,0 +1,1588 @@
+*{
+    margin                 : 0;
+    padding                : 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style-type        : none;
+}
+a{
+    text-decoration        : none;
+}
+
+/*===========common css end==========*/
+
+/* ===============Nav menu css start============== */
+
+/* #nav-menu {
+    width                  : 100%;
+}
+.logo-item {
+    margin                 : 47px 3px;
+}
+.logo-item a{
+    display                : inline-block;
+}
+.menu-item ul {
+    display                : flex;
+    justify-content        : space-between;
+    padding                : 0;
+    margin-bottom          : 0;
+}
+.menu-item ul li {
+    position               : relative;
+    transform              : translateY(52px);
+    z-index                : 9;
+}
+.menu-item ul li a {
+    font-family            : 'Poppins', sans-serif;
+    color                  : #101010;
+    font-size              : 20px;
+    font-weight            : 500;
+    border-radius          : 7px;
+    position               : relative;
+}
+.menu-item ul li a::after{
+    content                : '';
+    bottom                 : 0;
+    left                   : 0;
+    width                  : 0;
+    height                 : 2px;
+    position               : absolute;
+    background-color       : black;
+}
+.menu-item ul li:last-child a::after{
+    display                : none;
+}
+.menu-item ul li a:hover::after{
+    width                  : 100%;
+    transition             : all linear.3s;
+}
+.menu-item ul li a i{
+    margin-left            : 5px;
+}
+
+.menu-item ul li ul {
+    top                    : 35px;
+    left                   : -40px;
+    width                  : 203px;
+    padding                : 0 14px;
+    flex-wrap              : wrap;
+    border-radius          : 7px;
+    position               : absolute;
+    visibility             : hidden;
+    background-color       : #fff;
+    transition             : all linear.3s;
+    border                 : 1px solid #e5e5e5;
+}
+.menu-item ul li:hover ul{
+    visibility             : visible;
+}
+.menu-item ul li ul li {
+    padding                : 0px;
+    width                  : 100%;
+    border-bottom          : 1px solid #d9d8d8;
+    transform              : translateY(0px);
+    position               : relative;
+}
+
+.menu-item ul li ul li:last-child{
+    border                 : none;
+}
+.menu-item ul li ul li a{
+    line-height            : 2;
+}
+.menu-item ul li ul li a::after{
+    display                : none;
+}
+.menu-item ul li ul li i {
+    float                  : right;
+    padding                : 12px 0;
+}
+.menu-item ul li ul li:hover >a{
+    color                  : #1414ff;
+}
+.menu-item ul li ul li ul {
+    top                    : 0;
+    left                   : 192px;
+    opacity                : 0;
+    position               : absolute;
+    background-color       : #fff;
+    transition             : all linear .4s;
+}
+.menu-item ul li ul li:hover ul{
+    opacity                : 1;
+}
+.registration-item {
+    display                : flex;
+    gap                    : 40px;
+    justify-content        : end;
+    margin                 : 48px 0px;
+}   
+.registration-item .login-button{ 
+    cursor                 : pointer;
+    text-align             : center;
+    width                  : 90px;
+    height                 : 40px;
+    border                 : 1px solid #e0e0e0;
+    border-radius          : 5px;
+}
+.registration-item .login-button a {
+    display                : inline-block;
+    font-family            : 'Poppins', sans-serif;
+    font-weight            : 400;
+    font-size              : 16px;
+    color                  : #101010;
+    margin                 : 8px 0px;
+}
+.registration-item .login-button:hover{
+    background-color       : #28b0a6;
+    transition             : all linear.3s;
+}
+.registration-item .login-button:hover a{
+    color                  : #fff;
+    transition             : all linear.3s;
+}
+.registration-item .login-button a i{
+    margin-right           : 5px;
+}
+
+
+.registration-item .signup-button{
+    cursor                 : pointer;
+    text-align             : center;
+    width                  : 100px;
+    height                 : 40px;
+    border                 : 1px solid #e0e0e0;
+    border-radius          : 5px;
+}
+.registration-item .signup-button a{
+    display                : inline-block;
+    font-family            : 'Poppins', sans-serif;
+    font-weight            : 400;
+    font-size              : 16px;
+    color                  : #101010;
+    margin                 : 8px 0px;
+}
+.registration-item .signup-button:hover{
+    background-color       : #28b0a6;
+    transition             : all linear.3s;
+}
+.registration-item .signup-button:hover a{
+    color                  : #fff;
+    transition             : all linear.3s;
+}
+.registration-item .signup-button a i{
+    margin-right           : 5px;
+} */
+
+/* =======================Nav menu css end================= */
+
+
+/* ======================= bootstrap base Nav menu css start ================= */
+
+.navbar .navbar-brand{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left; 
+}
+.navbar-nav {
+    gap: 6px;
+}
+.navbar-nav .nav-item a {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    padding: 0.5rem 1rem;
+    display: block;
+    color: rgba(29, 41, 63, 1);
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(16 0 255 / 90%);
+}
+.navbar-nav .nav-item {
+    position: relative;
+}
+.navbar-nav .nav-item a:hover{
+    color: blue;
+}
+.navbar-nav .nav-item .sub-nev {
+    box-shadow: 0px 0px 8px -4px;
+    background-color: #ffffff;
+    z-index: 1;
+    padding-left: 2px;
+    width: 200px;
+    position: absolute;
+    display: none;
+}
+.navbar-nav .nav-item:hover .sub-nev{
+    display: block;
+}
+.navbar-nav .nav-item .sub-nev .sub-nev-list .sub-sub-nev {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px -4px;
+    width: 200px;
+    padding-left: 0px;
+    display: none;
+}
+.navbar-nav .nav-item .sub-nev .sub-nev-list .sub-sub-nev .sub-sub-nav-list{
+    border-bottom: 1px solid #c7c7c7;
+}
+.navbar-nav .nav-item .sub-nev .sub-nev-list .sub-sub-nev .sub-sub-nav-list:hover{
+    background-color: #8827ff93;
+}
+.navbar-nav .nav-item .sub-nev .sub-nev-list:hover .sub-sub-nev{
+    display: block;
+}
+.navbar-nav .nav-item .sub-nev .sub-nev-list {
+    position: relative;
+    border-bottom: 1px solid #c7c7c7;
+}
+.navbar-nav .nav-item .sub-nev .sub-nev-list:last-child{
+    border: none;
+}
+.navbar-nav .nav-item .sub-nev .sub-nev-list:hover{
+    background-color: #8827ff93;
+}
+.navbar-nav .nav-item .sub-nev .sub-nev-list a:hover{
+    color: #fff;
+}
+.reg-form button {
+    border: 1px solid #c7c7c7;
+    padding: 5px 6px;
+    background: #fff;
+    font-family: 'Poppins';
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 4px;
+}
+.reg-form button:hover{
+    transition: all linear.3s;
+    color: #fff;
+    background-color: rgba(40, 176, 166, 1);
+    -webkit-transition: all linear.3s;
+    -moz-transition: all linear.3s;
+    -ms-transition: all linear.3s;
+    -o-transition: all linear.3s;
+}
+
+/* ======================= bootstrap base Nav menu css end================= */
+
+/* =======================banner css start ================= */
+
+#banner{
+    margin-top             : 20px;
+}
+.banner-background{
+    position               : relative;
+}
+.banner-background img{
+    height                 : 100%;
+    width                  : 100%;
+    background-repeat      : no-repeat;
+    background-position    : center;
+    background-size        : cover;
+}
+.banner-overlay {
+    top                    : 0;
+    left                   : 0;
+    width                  : 100%;
+    height                 : 100%;
+    position               : absolute;
+    border-radius          : 25px;
+    background-color       : rgb(0 0 0 / 28%);
+}
+.banner-content {
+    margin-left            : 80px;
+    transform              : translateY(80px);
+}
+.banner-content h4 {
+    font-family            : Poppins,sans-serif;
+    font-size              : 19px;
+    font-weight            : 300;
+    line-height            : 32px;
+    letter-spacing         : 1.5px;
+    text-align             : left;
+    color                  : #fff;
+    margin-bottom          : 0px;
+}
+.banner-content h2 {
+    font-family            : Poppins,sans-serif;
+    font-size              : 73px;
+    font-weight            : 700;
+    line-height            : 110px;
+    letter-spacing         : -0.02em;
+    text-align             : left;
+    color                  : #fff;
+    margin-bottom          : 0px;
+}
+.banner-content h5 {
+    font-size              : 20px;
+    font-weight            : 300;
+    line-height            : 40px;
+    letter-spacing         : 3px;
+    text-align             : left;
+    color                  : #fff;
+    margin-bottom          : 0px;
+    display                : inline-block;
+    font-family            : Poppins,sans-serif;
+}
+.booknow {
+    float                  : right;
+    display                : flex;
+    width                  : 45%;
+    margin-top             : 30px;
+}
+.icon-booknow {
+    width                  : 40px;
+    height                 : 40px;
+    overflow               : hidden;
+    text-align             : center;
+    border-radius          : 50px;
+    background-color       : white;
+    border                 : 1px solid #e0e0e0;
+}
+.icon-booknow a{
+    display                : inline-block;
+    color                  : #000;
+    font-size              : 20px;
+    text-align             : center;
+    top                    : 5pox;
+}
+.icon-booknow a i {
+    margin                 : 9px 0px;
+}
+.booknow span {
+    width                  : 72%;
+    font-family            : Poppins;
+    font-size              : 23px;
+    font-weight            : 400;
+    line-height            : 36px;
+    letter-spacing         : 0em;
+    color                  : white;
+    margin                 : 0 24px;
+}
+.booknow-button {
+    position               : absolute;
+    right                  : 290px;
+    bottom                 : -107px;
+}
+.booknow-button a {
+    font-family            : Poppins, sans-serif;
+    font-size              : 20px;
+    font-weight            : 700;
+    line-height            : 36px;
+    letter-spacing         : 0em;
+    text-align             : left;
+    color                  : #fff;
+    border-bottom          : 1px solid #fff;
+}
+.slide-button {
+    gap                    : 15px;
+    display                : flex;
+    position               : absolute;
+    top                    : 255px;
+}
+.left-button{
+    width                  : 40px;
+    height                 : 40px;
+    overflow               : hidden;
+    text-align             : center;
+    border-radius          : 40px;
+    border                 : 1px solid #fff;
+}
+.left-button i {
+    margin                 : 3px 0px;
+    padding                : 9px;
+    color                  : white;
+    font-weight            : 300;
+    font-size              : 15px;
+}
+.right-button{
+    width                  : 40px;
+    height                 : 40px;
+    overflow               : hidden;
+    text-align             : center;
+    border-radius          : 40px;
+    border                 : 1px solid #fff;
+}
+.right-button i {
+    margin                 : 3px 0px;
+    padding                : 9px;
+    color                  : white;
+    font-weight            : 300;
+    font-size              : 15px;
+}
+.serch-bar {
+    width                  : 73%;
+    padding                : 13px 0px;
+    height                 : 115px;
+    margin                 : -56px 0px;
+    display                : flex;
+    border-radius          : 8px;
+    position               : absolute;
+    background-color       : #ffffff;
+    transform              : translateX(66px);
+    box-shadow             : 0px 14px 32px -18px;
+    justify-content        : space-around;
+}
+.location-item{
+    padding                : 10px;
+    text-align             : center;
+    position               : relative;
+}
+.location-item::after {
+    content                : '';
+    top                    : 24px;
+    right                  : -26px;
+    width                  : 1px;
+    height                 : 54px;
+    position               : absolute;
+    background-color       : #28b0a6;
+}
+.location-item h4{
+    font-family            : Poppins,sans-serif;
+    font-size              : 28px;
+    font-weight            : 500;
+    position               : relative;
+
+}
+.location-item p {
+    color                  : #565656;
+    border-bottom          : 1px solid #c7c7c7;
+}
+.location-item h4::after {
+    content                : '';
+    bottom                 : 5px;
+    left                   : 30px;
+    width                  : 66%;
+    height                 : 4px;
+    position               : absolute;
+    z-index                : -1;
+    background-color       : #F8C165;
+}
+.location-item i{
+    margin-left            : 10px;
+}
+.activity-item{
+    padding                : 10px;
+    text-align             : center;
+    position               : relative;
+}
+.activity-item::after {
+    content                : '';
+    top                    : 24px;
+    right                  : -31px;
+    width                  : 1px;
+    height                 : 54px;
+    position               : absolute;
+    background-color       : #28b0a6;
+}
+.activity-item h4{
+    font-family            : Poppins,sans-serif;
+    font-size              : 28px;
+    font-weight            : 500;
+    position               : relative;
+}
+.activity-item p {
+    color                  : #565656;
+    border-bottom          : 1px solid #c7c7c7;
+}
+.activity-item h4::after {
+    content                : '';
+    bottom                 : 5px;
+    left                   : 5px;
+    width                  : 89%;
+    height                 : 4px;
+    position               : absolute;
+    z-index                : -1;
+    background-color       : #F8C165;
+}
+.activity-item i{
+    margin-left            : 10px;
+}
+.date-item{
+    padding                : 10px;
+    text-align             : center;
+    position               : relative;
+}
+.date-item::after {
+    content                : '';
+    top                    : 24px;
+    right                  : -55px;
+    width                  : 1px;
+    height                 : 54px;
+    position               : absolute;
+    background-color       : #28b0a6;
+}
+.date-item h4{
+    font-family            : Poppins,sans-serif;
+    font-size              : 28px;
+    font-weight            : 500;
+    position               : relative;
+}
+.date-item p {
+    color                  : #565656;
+    border-bottom          : 1px solid #c7c7c7;
+}
+.date-item h4::after {
+    content                : '';
+    bottom                 : 5px;
+    left                   : 77px;
+    width                  : 30%;
+    height                 : 4px;
+    position               : absolute;
+    z-index                : -1;
+    background-color       : #F8C165;
+}
+.date-item i{
+    margin-left            : 10px;
+}
+.serch-box {
+    width                  : 80px;
+    height                 : 80px;
+    border-radius          : 8px;
+    text-align             : center;
+    background-color       : #28B0A6;
+}
+.serch-box i{
+    font-size              : 25px;
+    margin                 : 29px 0px;
+    color                  : #fff;
+}
+.bnner-sidebar-icon {
+    position               : absolute;
+    top                    : 356px;
+    transform              : rotate(270deg);
+    right                  : -59px;
+    height                 : 44px;
+    background-color       : #ffffff;
+    box-shadow             : 0px 0px 1px 0px;
+    line-height            : 39px;
+    width                  : 270px;
+    text-align             : center;
+}
+
+/* =======================banner css end ================= */
+
+/* =======================catagory css start ================= */
+
+#catagory {
+    margin-top             : 120px;
+}
+.catagory-hading-item{
+    display                : flex;
+    justify-content        : space-between;
+}
+.catagory-slide-button {
+    display                : flex;
+    gap                    : 18px;
+}
+.catagory-slide-button .catagory-left-button {
+    width                  : 44px;
+    height                 : 44px;
+    border                 : 1px solid #c2c2c2;
+    border-radius          : 100%;
+    background             : #fff;
+    margin-top             : 25px;
+}
+.catagory-slide-button .catagory-left-button:hover{
+    transition             : all linear.4s;
+    background      : #28B0A6;
+}
+.catagory-slide-button .catagory-left-button i {
+    line-height            : 45px;
+    color                  : #546179;
+}
+.catagory-slide-button .catagory-right-button{
+    width                  : 44px;
+    height                 : 44px;
+    border                 : 1px solid #959595;
+    border-radius          : 100%;
+    background             : #fff;
+    margin-top             : 25px;
+}
+.catagory-slide-button .catagory-right-button:hover{
+    color                  : #fff;
+    transition             : all linear.4s;
+    background       : #28B0A6;
+}
+.catagory-slide-button .catagory-right-button i {
+    line-height            : 45px;
+    color                  : #546179;
+}
+.catagory-heading h2 {
+    font-family            : Poppins,sans-serif;
+    font-size              : 30px;
+    font-weight            : 500;
+    line-height            : 57px;
+    text-align             : left;
+    margin-bottom          : 0px;
+}
+.catagory-heading p{
+    color                  : #546179;
+}
+.catagory-slider{
+    display                : flex;
+    position               : relative;
+    justify-content        : space-between;
+}
+.catagory-slider-item-one {
+    width                  : 258px;
+    height                 : 218px;
+    padding                : 0px 27px;
+    margin                 : 0px 9px;
+    border                 : 1px solid #e5e5e5;
+    box-shadow             : 0px 0px 10px -5px;
+}
+.catagory-slider-item-one img {
+    display                : inline-block;
+    position               : absolute;
+    top                    : 71px;
+}
+.catagory-slider-item-one h3 {
+    top                    : 136px;
+    font-family            : 'Poppins';
+    font-size              : 24px;
+    font-weight            : 500;
+    position               : absolute;
+}
+.catagory-slider-item-one a{
+    color                  : rgba(29, 41, 63, 1);
+}
+.catagory-slider-item-one span {
+    width                  : 47px;
+    height                 : 28px;
+    border-radius          : 10px;
+    position               : absolute;
+    text-align             : center;
+    color                  : #F5A623;
+    background-color       : #FEF2DE;
+    margin-left            : 172px;
+    top                    : 9px;
+}
+.catagory-slider-item-one p {
+    display                : inline-block;
+    top                    : 175px;
+    color                  : rgba(153, 163, 173, 1);
+    position               : absolute;
+}
+
+/* =======================catagory css end ================= */
+
+/* =======================trending css start ================= */
+
+#trending{
+    margin-top             : 50px;
+}
+.trending-heading h2 {
+    font-family            : Poppins,sans-serif;
+    font-size              : 30px;
+    font-weight            : 500;
+    line-height            : 57px;
+    text-align             : left;
+    margin-bottom          : 0px;
+}
+.trending-heading p {
+    font-family            : Poppins,sans-serif;
+    font-size              : 16px;
+    font-weight            : 400;
+    color                  : #546179;
+}
+.trending-slider{
+    display                : flex;
+    justify-content        : space-around;
+}
+.trending-button {
+    width                  : 97%;
+    display                : flex;
+    justify-content        : end;
+    gap                    : 24px;
+    margin-bottom          : 10px;
+}
+.trending-button i {
+    width                  : 45px;
+    height                 : 45px;
+    border                 : 1px solid #aabdc1;
+    line-height            : 42px;
+    text-align             : center;
+    color                  : #636e70;
+    cursor                 : pointer;
+    border-radius          : 100%;
+}
+.trending-slider-item-one {
+    width                  : 402px;
+    height                 : 555px;
+    margin                 : 10px;
+    padding                : 12px;
+    border-radius          : 25px;
+    box-shadow             : 0px 0px 14px -4px;
+}
+.images-div {
+    width                  : 100%;
+    height                 : 230px;
+    border-radius          : 10px;
+    overflow               : hidden;
+}
+.trending-cart-discription {
+    margin-top             : 7px;
+    cursor                 : pointer;
+}
+.trending-cart-discription h3 {
+    font-family            : 'Poppins';
+    font-weight            : 600;
+    font-size              : 22px;
+    line-height            : 44px;
+    margin-bottom          : 0px;
+}
+.trending-cart-discription h3 i {
+    float                  : right;
+    font-size              : 27px;
+    line-height            : 45px;
+    width                  : 45px;
+    height                 : 45px;
+    border-radius          : 100%;
+    text-align             : center;
+    background-color       : rgba(251, 251, 251, 1);
+    color                  : rgba(84, 97, 121, 1);
+    margin                 : 6px 6px;
+    cursor                 : pointer;
+}
+.trending-cart-discription p {
+    font-family            : Poppins;
+    font-size              : 16px;
+    font-weight            : 400;
+    line-height            : 14px;
+    color                  : rgba(153, 163, 173, 1);
+}
+.trending-cart-discription .trending-price-detil {
+    margin-top             : 28px;
+}
+.trending-cart-discription .trending-price-detil p {
+    font-family            : 'Poppins';
+    margin                 : 0px;
+    font-size              : 16px;
+    margin-bottom          : 17px;
+    color                  : rgba(84, 97, 121, 1);
+}
+.trending-cart-discription .trending-price-detil h4 {
+    font-family            : Poppins;
+    font-size              : 30px;
+    font-weight            : 600;
+    line-height            : 25px;
+    margin-bottom          : 17px;
+}
+.trending-cart-discription .trending-price-detil .trending-price-detil-value {
+    position               : absolute;
+    right                  : 0;
+    top                    : 0;
+    color                  : rgba(84, 97, 121, 1);
+    font-size              : 14px;
+}
+.trending-cart-discription .trending-price-detil .star-icone-trending {
+    color                  : rgba(245, 166, 35, 1);
+    font-size              : 15px;
+    float                  : right;
+}
+.trending-cart-discription .trending-price-detil .star-icone-trending i {
+    margin-right           : 8px;
+    cursor                 : pointer;
+}
+.trending-cart-discription .trending-price-detil span {
+    font-family            : Poppins;
+    font-size              : 14px;
+    font-weight            : 400;
+    margin-bottom          : 20px;
+    display                : block;
+    position               : relative;
+    color                  : rgba(84, 97, 121, 1);
+}
+.trending-cart-discription .trending-bottom-discription span {
+    font-family            : Poppins;
+    font-size              : 14px;
+    font-weight            : 500;
+    line-height            : 30px;
+    color                  : rgba(84, 97, 121, 1);
+}
+.trending-cart-discription .trending-bottom-discription span i {
+    margin-right           : 5px;
+}
+.trending-cart-discription .trending-cart-bottom-title {
+    margin-top             : 10px;
+}
+.trending-cart-discription .trending-cart-bottom-title span {
+    color                  : rgb(116 130 157);
+    font-size              : 16px;
+    font-family            : 'Poppins';
+}
+
+
+/* =======================trending css end ================= */
+
+/* =======================Top Destinations css start ================= */
+
+#top-destinations{
+    margin-top             : 50px;
+}
+.top-destination-heading h3 {
+    font-family            : Poppins,sans-serif;
+    font-size              : 30px;
+    font-weight            : 500;
+    line-height            : 57px;
+    text-align             : left;
+    margin-bottom          : 0px;
+
+}
+.top-destination-heading p {
+    font-family            : Poppins;
+    font-size              : 16px;
+    font-weight            : 400;
+    line-height            : 36px;
+    color                  : #546179;
+}
+.top-destination-heading-button i {
+    width                  : 40px;
+    height                 : 40px;
+    border                 : 1px solid #000;
+    border-radius          : 100%;
+    text-align             : center;
+    line-height            : 41px;
+    margin-right           : 18px;
+    cursor                 : pointer;
+    transform              : translate(956px, 0px);
+    margin-bottom          : 13px;
+}
+.top-destination-slider{
+    display                : flex;
+    margin                 : 0 auto;
+}
+.top-destination-img-one img {
+    width                  : 94%;
+    height                 : 50%;
+    margin                 : 5px;
+}
+.top-destination-img-two img {
+    width                  : 96%;
+    margin-left            : 3px;
+}
+.top-destination-img-three img {
+    width                  : 92%;
+    margin                 : 5px;
+}
+.top-destination-img-three .Amsterdam-img {
+    width                  : 38%;
+    margin                 : 8px;
+}
+.top-destination-img-three .pris-img {
+    width                  : 53%;
+    margin                 : 6px;
+    height                 : 247px;
+}
+
+.top-destination-overlay-one {
+    position               : absolute;
+    transform              : translate(43px, 157px);
+    color                  : white;
+    font-family            : 'Poppins';
+}
+.top-destination-overlay-two {
+    position               : absolute;
+    transform              : translate(43px, 380px);
+    color                  : white;
+    font-family            : 'Poppins';
+}
+.top-destination-overlay-three{
+    position               : absolute;
+    transform              : translate(43px, 157px);
+    color                  : white;
+    font-family            : 'Poppins';
+}
+.top-destination-overlay-four {
+    position               : absolute;
+    transform              : translate(227px, -104px);
+    color                  : white;
+    font-family            : 'Poppins';
+}
+/* =======================Top Destinations css end ================= */
+
+/* ============================Best Seller css start================= */
+
+#best-seller{
+    margin-top             : 80px;
+}
+.best-sellar-heading-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.best-seller-heading h2 {
+    font-family            : Poppins,sans-serif;
+    font-size              : 30px;
+    font-weight            : 500;
+    line-height            : 57px;
+    text-align             : left;
+    margin-bottom          : 0px;
+}
+.best-sellar-heading-btn p {
+    font-family            : Poppins,sans-serif;
+    color                  : #546179;
+}
+.check-btn {
+    float                  : right;
+    width                  : 95px;
+    height                 : 43px;
+    border: 1px solid rgba(40, 176, 166, 1);
+    text-align             : center;
+    line-height            : 44px;
+    border-radius          : 100px;
+}
+.check-btn:hover{
+    background-color       : rgba(40, 176, 166, 1);
+}
+.check-btn a{
+    font-family            : Poppins,sans-serif;
+    color: #28b0a6;
+}
+.check-btn a:hover{
+    color: #fff;
+}
+.best-seller-box{
+    position               : relative;
+    margin                 : 5px;
+}
+
+.best-seller-box-overlay {
+    top                    : 0px;
+    left                   : 0px;
+    width                  : 100%;
+    height                 : 100%;
+    position               : absolute;
+    background-color       : rgb(0 0 0 / 0%);
+    border-radius          : 23px;
+    padding                : 0 15px;
+    opacity                : 0;
+}
+.best-seller-box:hover .best-seller-box-overlay{
+    opacity                : 1;
+    cursor                 : pointer;
+    transition             : all linear.4s;
+}
+.best-seller-box-overlay-content {
+    margin-top: 169px;
+    position: relative;
+}
+.best-sellar-notefaction {
+    width: 33px;
+    height: 23px;
+    font-size: 13px;
+    font-family: poppin,sans-serif;
+    border-radius: 10px;
+    background-color: rgb(249, 199, 210);
+    color: rgba(238, 88, 121, 1);
+    text-align: center;
+    line-height: 23px;
+    position: absolute;
+    right: 0;
+    top: -146px;
+}
+.best-seller-box-overlay-content p{
+    color                  : white;
+    font-size              : 16px;
+    font-family            : 'Poppins';
+}
+.best-seller-box-overlay-content h3{
+    color                  : white;
+    font-size              : 22px;
+    font-family            : 'Poppins';
+    display                : inline-block;
+}
+.best-seller-box-overlay-content h3 a{
+    color                  : white;
+}
+.best-seller-box-overlay-content h3::after {
+    content                : '';
+    bottom                 : 0;
+    left                   : 0;
+    width                  : 26%;
+    height                 : 3px;
+    position               : absolute;
+    background-color       : #ffffff;
+}
+.best-seller-box-overlay-button-item {
+    display                : flex;
+    justify-content        : flex-end;
+    gap                    : 35px;
+    width                  : 100%;
+    position               : absolute;
+    top                    : 30px;
+}
+.best-seller-box-overlay-button-item .share-button i {
+    color                  : #070716;
+    width                  : 34px;
+    height                 : 34px;
+    background-color       : white;
+    border-radius          : 100%;
+    text-align             : center;
+    line-height            : 37px;
+    font-size              : 18px;
+    cursor                 : pointer;
+}
+.best-seller-box-overlay-button-item .explore-button {
+    width                  : 58px;
+    height                 : 31px;
+    background-color       : white;
+    text-align             : center;
+    line-height            : 29px;
+    border-radius          : 55px;
+    cursor                 : pointer;
+    font-size              : 13px;
+}
+
+
+/* ============================Best Seller css end================= */
+
+
+/* ============================Tour Guides css start================= */
+
+#tour-guides{
+    margin-top             : 50px;
+}
+/* .tur-headlin{
+    
+} */
+.tour-guid-btn{
+    width                  : 100%;
+    display                : flex;
+    justify-content        : end;
+    gap                    : 15px;
+    margin-bottom          : 10px;
+}
+.tour-guid-btn i {
+    width                  : 45px;
+    height                 : 45px;
+    border                 : 1px solid #aabdc1;
+    line-height            : 42px;
+    text-align             : center;
+    color                  : #636e70;
+    cursor                 : pointer;
+    border-radius          : 100%;
+}
+.tur-headlin span i {
+    width                  : 40px;
+    height                 : 40px;
+    cursor                 : pointer;
+    margin-right           : 10px;
+    line-height            : 43px;
+    text-align             : center;/*
+    position               : absolute; */
+    border-radius          : 100%;
+    border                 : 1px solid #000;
+}
+.tour-guide-slider{
+    display                : flex;
+    justify-content        : space-between;
+}
+.slider-tour-one{
+    position               : relative;
+    width                  : 25%;
+}
+.slider-tour-one span {
+    bottom                 : 0;
+    left                   : 0;
+    width                  : 52px;
+    height                 : 44px;
+    text-align             : center;
+    border-top-right-radius: 11px;
+    position               : absolute;
+    background-color       : white;
+    line-height            : 55px;
+    font-family            : 'Poppins';
+    font-size              : 18px;
+    font-weight            : 500;
+    color                  : blue;
+}
+.slider-tour-one summary{
+    font-size              : 18px;
+    font-weight            : 500;
+    font-family            : poppin,sans-serif;
+
+}
+.slider-tour-one details{
+    margin-top             : 24px;
+    margin-left            : 20px;
+}
+.slider-tour-one a{
+    font-family            : poppin,sans-serif;
+    font-size              : 14px;
+    color                  : black;
+    margin-top             : 15px;
+    margin                 : 12px;
+}
+
+/* ============================Tour Guides css end================= */
+
+/* ============================tour-the-world css strt================= */
+#tour-the-world{
+    margin-top             : 50px;
+}
+.tour-the-world-background {
+    width                  : 100%;
+    height                 : 400px;
+    background-color       : #636e70;
+    border-radius          : 28px;
+    overflow               : hidden;
+}
+.tour-the-world-background-content{
+    text-align             : center;
+}
+.tour-the-world-background-content h2 {
+    margin                 : 5% 0px;
+    font-size              : 43px;
+    font-family            : 'Poppins';
+    color                  : white;
+    line-height            : 71px;
+    font-weight            : 700;
+    margin-bottom          : 21px;
+}
+.tour-the-world-background-content p{
+    font-size              : 29px;
+    color                  : #b9b9b9;
+    font-family            : 'Poppins';
+    font-weight            : 300;
+}
+.tour-the-world-background-content span {
+    width                  : 105px;
+    height                 : 43px;
+    display                : inline-block;
+    background-color       : white;
+    border-radius          : 100px;
+    cursor                 : pointer;
+    margin-top             : 30px;
+}
+.tour-the-world-background-content a {
+    line-height            : 42px;
+    color                  : black;
+    font-size              : 17px;
+    font-family            : 'Poppins';
+    font-weight            : 400;
+}
+
+/* ============================tour-the-world css end================= */
+
+/* ============================subscribe section css start================= */
+
+#subscribe-part{
+    margin-top             : 150px;
+}
+.subscribe-offer-part {
+    width                  : 70%;
+    margin-top             : 54px;
+}
+.subscribe-box{
+    margin-top             : 50px;
+}
+.subscribe-box form input {
+    height                 : 55px;
+    width                  : 256px;
+    box-shadow             : 0px 3px 9px -4px;
+    padding-left           : 36px;
+    border                 : none;
+}
+.subscribe-box form input::placeholder{
+    text-transform         : uppercase;
+}
+.subscribe-box form button {
+    height                 : 56px;
+    width                  : 100px;
+    box-shadow             : 0px 3px 11px -4px #000;
+    border                 : none;
+    background-color       : rgba(40, 176, 166, 1);
+    color                  : white;
+    position               : relative;
+}
+.subscribe-offer-part p {
+    font-family            : Poppins;
+    font-size              : 25px;
+    font-weight            : 400;
+    line-height            : 36px;
+    color                  : rgba(40, 176, 166, 1);
+}
+.subscribe-offer-part h2 {
+    font-family            : Poppins;
+    font-size              : 25px;
+    font-weight            : 700;
+    line-height            : 35px;
+    color                  : rgb(6, 6, 6);
+    margin-bottom          : 78px;
+}
+
+/* ============================subscribe section css end================= */
+
+/* ============================still have a question css start================= */
+
+#qustion{
+    margin-top             : 50px;
+}
+.qustion-headline h2{
+    font-family            : Poppins;
+    font-size              : 40px;
+    font-weight            : 700;
+    line-height            : 60px;
+    letter-spacing         : -0.6399999856948853px;
+    text-align             : center;
+
+}
+.qustion-headline p {
+    font-family            : Poppins;
+    font-size              : 24px;
+    font-weight            : 400;
+    line-height            : 36px;
+    letter-spacing         : -0.3799999952316284px;
+    text-align             : center;
+    color                  : rgba(84, 97, 121, 1);
+    margin-bottom          : 65px;
+}
+.forsels-box{
+    height                 : 560px;
+    width                  : 100%;
+    border-radius          : 12px;
+    background-color       : rgba(40, 176, 166, 1);
+    text-align             : center;
+
+}
+.forsels-box h5 {
+    margin-top             : 180px;
+    font-family            : Poppins;
+    font-size              : 32px;
+    font-weight            : 500;
+    line-height            : 48px;
+    letter-spacing         : -0.5099999904632568px;
+    text-align             : center;
+    color                  : white;
+
+
+}
+.forsels-box p{
+    font-family            : Poppins;
+    font-size              : 24px;
+    font-weight            : 400;
+    line-height            : 36px;
+    letter-spacing         : -0.3799999952316284px;
+    text-align             : center;
+    color                  : rgba(188, 240, 236, 1);
+
+}
+.forsels-box span{
+    font-family            : Poppins;
+    font-size              : 24px;
+    font-weight            : 500;
+    line-height            : 36px;
+    letter-spacing         : -0.3799999952316284px;
+    text-align             : center;
+    color                  : rgba(255, 255, 255, 1);
+
+}
+
+.for-sale-icon {
+    width: 77px;
+    height: 77px;
+    border-radius: 100%;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    transform: translateY(150px);
+    -webkit-transform: translateY(150px);
+    -moz-transform: translateY(150px);
+    -ms-transform: translateY(150px);
+    -o-transform: translateY(150px);
+}
+.for-sale-icon img{
+    margin-top             : 13px;
+}
+.help-support-box{
+    height                 : 560px;
+    width                  : 100%;
+    border-radius          : 12px;
+    background-color       : rgba(29, 41, 63, 1);
+
+}
+.side-dot-icon img{
+    z-index                : -2;
+    position               : absolute;
+    left                   : 208px;
+    transform              : rotate(90deg);
+    margin-top             : -106px;
+}
+.help-support-box .help-support-box-icon{
+    text-align             : center;
+}
+.help-support-box .help-support-box-icon img{
+    width                  : 77px;
+    margin-top             : 21%;
+}
+.help-support-box h4 {
+    font-family            : Poppins;
+    font-size              : 32px;
+    font-weight            : 500;
+    line-height            : 48px;
+    letter-spacing         : -0.5099999904632568px;
+    text-align             : center;
+    color                  : white;
+    margin-top             : 21px;
+}
+.help-support-box p {
+    font-family            : Poppins;
+    font-size              : 24px;
+    font-weight            : 400;
+    line-height            : 36px;
+    letter-spacing         : -0.3799999952316284px;
+    text-align             : center;
+    color                  : rgba(153, 163, 173, 1);
+
+}
+.help-support-box span {
+    font-family            : Poppins;
+    font-size              : 24px;
+    font-weight            : 500;
+    text-align             : center;
+    margin-left            : 200px;
+    color                  : rgba(255, 255, 255, 1);
+}
+.plus-border-item{
+    border-bottom          : 1px solid rgba(233, 236, 239, 1);
+}
+.plus-icon{
+    display                : flex;
+    justify-content        : space-between;
+}
+.plus-icon-content-one i {
+    font-size              : 26px;
+    line-height            : 33px;
+    color                  : rgba(29, 41, 63, 1);
+}
+.plus-icon-content-one a{
+    margin-left            : 15px;
+    font-family            : poppin,sans-serif;
+    font-size              : 22px;
+    color                  : rgba(29, 41, 63, 1);
+}
+.plus-icon-content-two span{
+    color                  : rgba(84, 97, 121, 1);
+}
+.get-in-border-item{
+    border-bottom          : 1px solid rgba(233, 236, 239, 1);
+}
+.get-in-touch{
+    display                : flex;
+    justify-content        : space-between;
+}
+.get-in-touch-item-two .get-in-touch-item-two-icon {
+    width                  : 60px;
+    height                 : 60px;
+    border-radius          : 100%;
+    text-align             : center;
+    background-color       : rgba(40, 176, 166, 1);
+    margin-left            : -75px;
+    position               : absolute;
+}
+.get-in-touch-item-two .get-in-touch-item-two-icon i {
+    font-size              : 41px;
+    color                  : #fff;
+    line-height            : 60px;
+}
+.get-in-touch-item-two h5{
+    font-family            : Poppins;
+    font-size              : 24px;
+    font-weight            : 500;
+    line-height            : 36px;
+    
+}
+.get-in-touch-item-two p{
+    font-family            : Poppins;
+    font-size              : 24px;
+    font-weight            : 400;
+    line-height            : 36px;
+    color                  : #000;
+
+}
+.get-in-touch-item-two i{
+    font-size              : 24px;
+}
+
+/* ============================still have a question css end================= */
+
+/* ============================footer part css start================= */
+
+.footer-service-content{
+    display                : flex;
+    justify-content        : space-between;
+}
+.footer-service-content .footer-service h4 {
+    font-family            : Poppins;
+    font-size              : 27px;
+    font-weight            : 500;
+    margin-bottom          : 30px;
+    padding                : 5px;
+    position               : relative;
+}
+.footer-service-content .footer-service h4::after {
+    content                : '';
+    top                    : 10px;
+    left                   : 0;
+    width                  : 3px;
+    height                 : 21px;
+    position               : absolute;
+    background-color       : #2208ff;
+}
+.footer-service-content .footer-country h4::after {
+    content                : '';
+    top                    : 10px;
+    left                   : 0;
+    width                  : 3px;
+    height                 : 21px;
+    position               : absolute;
+    background-color       : #2208ff;
+}
+.footer-service-content .footer-adventures h4::after {
+    content                : '';
+    top                    : 10px;
+    left                   : 0;
+    width                  : 3px;
+    height                 : 21px;
+    position               : absolute;
+    background-color       : #2208ff;
+}
+.footer-service-content .footer-country h4 {
+    font-family            : Poppins;
+    font-size              : 27px;
+    font-weight            : 500;
+    margin-bottom          : 30px;
+    position               : relative;
+    padding                : 5px;
+}
+.footer-service-content .footer-adventures h4 {
+    font-family            : Poppins;
+    font-size              : 27px;
+    font-weight            : 500;
+    margin-bottom          : 30px;
+    position               : relative;
+    padding                : 5px;
+}
+.footer-service-content .footer-service span {
+    display                : block;
+    margin-bottom          : 16px;
+}
+.footer-service-content .footer-adventures span{
+    display                : block;
+    margin-bottom          : 16px;
+}
+.footer-service-content .footer-country span{
+    display                : block;
+    margin-bottom          : 16px;
+}
+.footer-service-content .footer-service span a{
+    color                  : #546179;
+    font-family            : Poppins,sans-serif;
+    font-size              : 16px;
+    font-weight            : 400;
+    
+}
+.footer-service-content .footer-adventures span a{
+    color                  : #546179;
+    color                  : #546179;
+    font-family            : Poppins,sans-serif;
+    font-size              : 16px;
+    font-weight            : 400;
+    
+}
+.footer-service-content .footer-country span a{
+    color                  : #546179;
+    font-family            : Poppins,sans-serif;
+    font-size              : 16px;
+    font-weight            : 400;
+    
+}
+.footer-service-content .footer-country span a:hover{
+    color                  : #000;
+}
+.footer-service-content .footer-adventures span a:hover{
+    color                  : #000;
+}
+.footer-service-content .footer-service span a:hover{
+    color                  : #000;
+}
+
+.footer-serch-box{
+    margin-left            : 170px;
+}
+.footer-serch-box p{
+    font-family            : Poppins;
+    font-size              : 24px;
+    font-weight            : 500;
+    color                  : #1D293F;
+}
+.footer-serch-box h5{
+    margin-bottom          : 40px;
+}
+.footer-serch-box h5 a{
+    font-family            : Poppins;
+    font-size              : 40px;
+    font-weight            : 500;
+    line-height            : 60px;
+    color                  : #1D293F;
+}
+.footer-serch-box form input {
+    height                 : 55px;
+    width                  : 256px;
+    box-shadow             : 0px 3px 9px -4px;
+    padding-left           : 36px;
+    border                 : none;
+}
+.footer-serch-box  form button {
+    height                 : 56px;
+    width                  : 100px;
+    box-shadow             : 0px 3px 11px -4px #000;
+    border                 : none;
+    background-color       : rgba(40, 176, 166, 1);
+    color                  : white;
+    position               : relative;
+}
+.privacy-policy-content{
+    height                 : 45px;
+    display                : flex;
+    justify-content        : space-between;
+}
+.privacy-policy-content .privacy-policy-item span{
+    font-family            : Poppins;
+    font-size              : 24px;
+    font-weight            : 400;
+    color                  : #000000;
+}
+.privacy-policy-item span a{
+    font-family            : Poppins,sans-serif;
+    font-size              : 24px;
+    font-weight            : 400;
+    color                  : #000000;
+}
+.privacy-border{
+    border-bottom          : 1px solid #E9ECEF;
+}
+.copy-right-content {
+    height                 : 44px;
+    display                : flex;
+    justify-content        : space-between;
+}
+.copy-right-item span{
+    font-family            : Poppins;
+    font-size              : 16px;
+    font-weight            : 400;
+}
+
+/* ============================footer part css end================= */
